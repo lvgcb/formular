@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 110%;
+}
+
+.title {
+    margin-top: 50px;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);                        
+}
+
+.amongus {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('amogus.png') no-repeat center;
+    background-size: cover;
+}
+.mech{
+    position: absolute;
+    top: 25%;
+    left:22%;
+    height:80px;
+    width: 50%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 1px solid white; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); 
+    transition: 0.3s ease-in-out;
+
+    h1{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        letter-spacing: 2px;
+    }
+    P{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+}
+.mech:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1); 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.mpt{
+    position: absolute;
+    top: 40%;
+    left:22%;
+    height:80px;
+    width: 50%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 1px solid white; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); 
+    transition: 0.3s ease-in-out;
+
+    h1{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        letter-spacing: 2px;
+    }
+    P{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+}
+.mpt:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1); 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.eam{
+    position: absolute;
+    top: 55%;
+    left:22%;
+    height:80px;
+    width: 50%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 1px solid white; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); 
+    transition: 0.3s ease-in-out;
+
+    h1{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        letter-spacing: 2px;
+    }
+    P{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+}
+.eam:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1); 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.oaw{
+    position: absolute;
+    top: 70%;
+    left:22%;
+    height:80px;
+    width: 50%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 1px solid white; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); 
+    transition: 0.3s ease-in-out;
+
+    h1{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        letter-spacing: 2px;
+    }
+    P{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+}
+.oaw:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1); 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.quan{
+    position: absolute;
+    top: 85%;
+    left:22%;
+    height:80px;
+    width: 50%;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 1px solid white; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); 
+    transition: 0.3s ease-in-out;
+
+    h1{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        letter-spacing: 2px;
+    }
+    P{
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    }
+}
+.quan:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1); 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
